@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: flux
+
+configuration:
+  multiply-service:
+    base-url: http://localhost:8080/multiply/
+    cache-size: 1000
+    cache-expire-after-minutes: 1
